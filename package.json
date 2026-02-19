@@ -1,0 +1,14 @@
+{
+  "name": "crevnclaw",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm -r --parallel dev",
+    "lint": "pnpm -r lint"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
