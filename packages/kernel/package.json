@@ -10,10 +10,20 @@
     "test": "vitest run"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/ws": "^8.18.1",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
   },
   "dependencies": {
-    "@crevnclaw/types": "workspace:*"
+    "@aws-sdk/client-bedrock-runtime": "^3.993.0",
+    "@crevnclaw/memory": "workspace:*",
+    "@crevnclaw/sandbox": "workspace:*",
+    "@crevnclaw/types": "workspace:*",
+    "js-yaml": "^4.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "ws": "^8.19.0",
+    "zod": "^3.25.76"
   }
 }
