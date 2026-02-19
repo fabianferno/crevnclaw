@@ -10,10 +10,12 @@
     "test": "vitest run"
   },
   "devDependencies": {
+    "@types/dockerode": "^3.3.34",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
   },
   "dependencies": {
-    "@crevnclaw/types": "workspace:*"
+    "@crevnclaw/types": "workspace:*",
+    "dockerode": "^4.0.4"
   }
 }
