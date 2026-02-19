@@ -21,6 +21,9 @@ export { CircuitBreaker } from './circuit-breaker.js';
 // Router
 export { MessageRouter } from './router.js';
 
+// MCP Host
+export { McpHost } from './mcp.js';
+
 // Workflow
 export { parseWorkflowYaml, validateWorkflow } from './workflow/parser.js';
 export { freezeState, thawState, hasFrozenState } from './workflow/freeze.js';

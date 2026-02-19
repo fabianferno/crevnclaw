@@ -1,0 +1,23 @@
+{
+  "port": 3100,
+  "origin_allowlist": ["http://localhost:3000"],
+  "providers": [
+    {
+      "type": "bedrock",
+      "model": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "region": "us-east-1"
+    }
+  ],
+  "active_provider": "bedrock",
+  "circuit_breaker": {
+    "max_daily_spend": 5.00,
+    "max_loops_per_hour": 50
+  },
+  "mcp_servers": [],
+  "sandbox": {
+    "cpu_limit": 1,
+    "memory_limit": "512m",
+    "timeout_ms": 30000,
+    "host_network": false
+  }
+}
