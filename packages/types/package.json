@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "test": "vitest run"
+    "test": "echo 'No tests for types package'"
   },
   "devDependencies": {
     "typescript": "^5.7.0",
